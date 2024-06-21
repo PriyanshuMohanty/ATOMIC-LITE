@@ -1,0 +1,791 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* NAVBAR */
+
+.bannercolor{
+  background-color: rgb(166, 163, 163);
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  z-index: 999;
+  opacity: 0.8;
+}
+
+.bannercolor nav ul {
+  display: flex;
+  margin-bottom: 0%;
+  width: 100%;
+  z-index: 1000;
+  left: 50px;
+}
+
+.bannercolor nav ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.websitename{
+  margin-top: 3px;
+  pointer-events: none; /
+}
+
+.bannercolor nav ul li a {
+  text-decoration: none; 
+  list-style: none;
+  color: rgb(9, 1, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-left:100px;
+}
+
+
+/* HEADER SECTION  */
+#MainHeader img {
+  background-image:url("/img/bg/greenery_rock_mountain_ocean_coast_waves_under_black_clouds_blue_sky_during_sunset_hd_nature.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.Heading h2 {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  padding-top: 18%;
+  color: rgb(247, 245, 245);
+}
+
+.Heading h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 6px;
+  text-decoration: underline;
+  color: rgb(250, 248, 248);
+  font-size: 4.1rem;
+}
+
+/* PARAGRAP SECTION  */
+
+.onp P {
+  display: flex;
+  justify-content: center;
+  padding-top: 17px;
+  color: rgb(247, 245, 245);
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.onp button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  padding: 6px 20px;
+  color: rgb(35, 35, 35);
+  border: none;
+  border-radius: 16px;
+  background-color:rgb(252, 252, 252);
+  font-size: 1.1rem;
+}
+
+.onp button:hover {
+  background-color: transparent;
+  background-color:  #961bd3;
+  color: white;
+}
+
+/* MAINCONTANT */
+
+#Maincontainer {
+  display: flex;
+  margin-top: 25%;
+  margin-bottom: 10.3%;
+}
+
+#Maincontainer h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+#Maincontainer p {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  font-size: 1.1rem;
+}
+
+#Maincontainer .Mainbgwidth {
+  margin-top: 7%;
+  display: flex;
+  width: 40%;
+  height: 85%;
+  margin-left: 48%;
+  /* background-color: rgb(165, 145, 145); */
+}
+
+#Maincontainer .Mainbgwidth .Mainintro {
+  background-color: white;
+  box-shadow: 0 0 5px 5px rgba(192, 192, 192, 0.2);
+  display: block;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  padding-top: 75px;
+  padding-left: 110px;
+  width: auto;
+}
+
+#Maincontainer .Mainbgwidth .Mainintro .PB-30 {
+  padding-bottom: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#Maincontainer .Mainbgwidth .Mainintro p {
+  padding-bottom: 10px;
+  width: 80%;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.Mainbgwidth .Maincontainerimg {
+  position: absolute;
+  left: 15%;
+  margin-top: 3%;
+  overflow: hidden;
+
+  opacity: 1;
+}
+
+/* Anothercontainer */
+
+#Anothercontainer {
+  padding: 150px 0px;
+  background-color: rgb(244, 249, 249);
+  /* min-height: 20%; */
+  /* position: relative; */
+}
+
+#Anothercontainer h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.3rem;
+}
+#Anothercontainer p {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#Anothercontainer img {
+  display: flex;
+  padding: 90px 0px;
+  margin: auto;
+}
+
+#Anothercontainer h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#Anothercontainer p {
+  padding-top: 10px;
+}
+
+#Anothercontainer hr {
+  display: flex;
+  width: 30%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* SOME FEATCURES */
+
+#SomeFeatures {
+  padding-top: 80px;
+}
+
+#SomeFeatures section h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+#SomeFeatures section p {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#SomeFeatures #FeaturesMain {
+  width: 85%;
+  margin: auto;
+  padding: 55px;
+}
+
+#FeaturesMain .blocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50px;
+  margin: 30px;
+  text-align: center;
+}
+
+.blocks h4 a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.blocks p {
+  font-size: medium;
+  font-weight: lighter;
+  color: rgb(211, 210, 210);
+}
+
+#FeaturesMain .blocks .box1,
+#FeaturesMain .blocks .box2,
+#FeaturesMain .blocks .box3,
+#FeaturesMain .blocks .box4,
+#FeaturesMain .blocks .box5,
+#FeaturesMain .blocks .box6 {
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#FeaturesMain .blocks .box1:hover,
+#FeaturesMain .blocks .box2:hover,
+#FeaturesMain .blocks .box3:hover,
+#FeaturesMain .blocks .box4:hover,
+#FeaturesMain .blocks .box5:hover,
+#FeaturesMain .blocks .box6:hover {
+  background-image: -webkit-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
+  transition: 0.4s;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* #Femalepicutres */
+
+#Femalepicutres {
+  margin-top: 40px;
+}
+
+#Femalepicutres section img {
+  float: left;
+  width: 20%;
+  min-height: 10px;
+  margin-right: 0%;
+  padding: 0%;
+}
+
+/* Asked Questions */
+
+#AskedQuestions {
+  margin-top: 522px;
+}
+
+#AskedQuestions .mainheading {
+  margin-bottom: 75px;
+}
+
+#AskedQuestions .mainheading h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.6rem;
+}
+
+#AskedQuestions .mainheading p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.projectnumber {
+  margin-left: 14%;
+  padding: 0px 100px;
+  text-align: center;
+  width: 25%;
+  position: absolute;
+  /* background-color: rgb(248, 253, 253); */
+}
+
+.projectnumber .gaps {
+  padding: 20px 0;
+  font-size: 1.1rem;
+}
+
+.projectnumber .gaps span {
+  color: #961bd3;
+  font-size: 2.4rem;
+  padding-left: 22px;
+  font-weight: bolder;
+  float: 10px right;
+  /* color: -webkit-linear-gradient(0deg, #b21aff 0%, #732bde 100%); */
+}
+
+/* Questions-Answer */
+
+#Questions-Answer {
+  width: 36%;
+  position: relative;
+  margin-left: 38%;
+  /* background-color: rgb(247, 247, 237); */
+  margin-top: 88px;
+}
+
+.aboutUs h3 {
+  padding: 8px 0px;
+}
+.aboutUs p {
+  padding: 16px 0px;
+  font-size: 1.1rem;
+  color: rgb(131, 129, 129);
+}
+
+/* ENJOYMENT */
+#ENJOYMENT {
+  margin-top: 50px;
+}
+
+#ENJOYMENT .img1 {
+  padding: 20px;
+  margin-left: 18px;
+  max-width: 32%;
+  max-height: 38%;
+}
+
+#ENJOYMENT .img2 {
+  padding: 12px;
+  margin-left: 10px;
+  margin-bottom: 7px;
+  max-width: 32%;
+  max-height: 32%;
+}
+
+#ENJOYMENT .img3 {
+  padding: 20px;
+  margin-left: 10px;
+  max-width: 32%;
+  max-height: 32%;
+}
+
+/* FORM  */
+
+#form {
+  margin: auto;
+}
+
+#form h1 {
+  /* background-color: rgb(248, 210, 107); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  font-size: 2.4rem;
+}
+#form p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  margin-bottom: 0px;
+  /* background-color: rgb(248, 210, 107); */
+}
+
+#info {
+  /* background-color: green; */
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-left: 310px;
+  margin-top: 50px;
+  width: 30%;
+  display: grid;
+  gap: 2px;
+  position: relative;
+}
+
+#info input{
+  padding: 12px 10px;
+}
+
+#texthere textarea{
+  /* background-color: rgb(243, 167, 167); */
+  width: 440px;
+  height: 180px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-left: 470px;
+  margin-top: -180px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 35px;
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid rgb(102, 100, 100);
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 44%;
+  margin-bottom: 50px;
+}
+
+.btn:hover {
+  background-color: #983bc6;
+  color: white;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 1495px){
+
+}
+
+@media (max-width: 1400px) {
+
+#Maincontainer .Mainbgwidth {
+  margin-top: 5%;
+  display: flex;
+  width: 40%;
+  height:85%;
+  margin-left: 48%;
+}
+
+#Maincontainer .Mainbgwidth .Mainintro {
+  background-color: white;
+  box-shadow: 0 0 5px 5px rgba(192, 192, 192, 0.2);
+  display: block;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  padding-top: 75px;
+  padding-left: 110px;
+  width: auto;
+}
+
+#Maincontainer .Mainbgwidth .Mainintro .PB-30 {
+  padding-bottom: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#Maincontainer .Mainbgwidth .Mainintro p {
+  padding-bottom: 10px;
+  width: 80%;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.Mainbgwidth .Maincontainerimg {
+  position: absolute;
+  left: 12%;
+  margin-top: 4%;
+  overflow: hidden;
+  opacity: 1;
+  width: 50%;
+  height:130%;
+}
+
+@media (max-width: 1350px) {
+   
+  .Mainbgwidth .Maincontainerimg {
+    position: absolute;
+    left: 12%;
+    margin-top: 4%;
+    overflow: hidden;
+    opacity: 1;
+    width: 50%;
+    height:130%;
+  }
+
+  .projectnumber {
+    margin-left: 10%;
+    padding: 0px 100px;
+    text-align: center;
+    width: 29%;
+    position: absolute;
+  }
+  
+  .projectnumber .gaps {
+    padding: 20px 0;
+    font-size: 1rem;
+  }
+
+  #Questions-Answer {
+    width: 36%;
+    position: relative;
+    margin-left: 38%;
+    margin-top: 88px;
+  }
+  
+  .aboutUs h3 {
+    padding: 8px 0px;
+  }
+  .aboutUs p {
+    padding: 16px 0px;
+    font-size: 1rem;
+    color: rgb(131, 129, 129);
+  }
+   
+  @media (max-width: 1300px) {
+    .Mainbgwidth .Maincontainerimg {
+      position: absolute;
+      left: 10%;
+      margin-top:4%;
+      overflow: hidden;
+      opacity: 1;
+      width: 50%;
+      height:130%;
+    }
+  @media (max-width: 1250px) {
+
+    #Maincontainer .Mainbgwidth {
+      margin-top: 5%;
+      display: flex;
+      width: 45%;
+      height:85%;
+      margin-left: 48%;
+    }
+
+    .Mainbgwidth .Maincontainerimg {
+      position: absolute;
+      left: 8%;
+      margin-top:4%;
+      overflow: hidden;
+      opacity: 1;
+      width: 50%;
+      height:130%;
+    }
+    
+  @media (max-width: 1200px){
+      
+  .bannercolor{
+    /* background-color: rgb(247, 166, 166); */
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    z-index: 999;
+    opacity: 0.8;
+    /* color: black; */
+  }
+  
+  .bannercolor nav ul {
+    display: flex;
+    margin-bottom: 0%;
+    width: 100%;
+    z-index: 1000;
+    left: 50px;
+  }
+  
+  .bannercolor nav ul li{
+    font-size:small ;
+  }
+
+  #Maincontainer .Mainbgwidth {
+    margin-top: 5%;
+    display: flex;
+    width: 45%;
+    height:85%;
+    margin-left: 48%;
+  }
+
+  .Mainbgwidth .Maincontainerimg {
+    position: absolute;
+    left: 7%;
+    margin-top:4%;
+    overflow: hidden;
+    opacity: 1;
+    width: 50%;
+    height:130%;
+
+  }
+
+  .projectnumber {
+    margin-left: 10%;
+    padding: 0px 100px;
+    text-align: center;
+    width: 29%;
+    position: absolute;
+  }
+  
+  .projectnumber .gaps {
+    padding: 20px 0;
+    font-size: 1rem;
+  }
+
+  .aboutUs p {
+    padding: 6px 0px;
+    font-size: 1rem;
+    color: rgb(131, 129, 129);
+  }
+
+  @media (max-width: 1150px){
+  
+  .bannercolor nav ul li a {
+      text-decoration: none; 
+      list-style: none;
+      color: rgb(9, 1, 1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      padding-left:97px;
+    }
+
+
+  #Maincontainer .Mainbgwidth {
+    margin-top: 5%;
+    display: flex;
+    width: 45%;
+    height:85%;
+    margin-left: 49%;
+  }
+
+  #Maincontainer .Mainbgwidth .Mainintro .PB-30 {
+    padding-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  #Maincontainer .Mainbgwidth .Mainintro p {
+    padding-bottom: 10px;
+    width: 80%;
+    justify-content: center;
+    font-size: 1rem;
+  }
+
+  .Mainbgwidth .Maincontainerimg {
+    position: absolute;
+    left: 5%;
+    margin-top:4%;
+    overflow: hidden;
+    opacity: 1;
+    width: 50%;
+    height:130%;
+  }
+
+  .projectnumber {
+    margin-left: 10%;
+    padding: 0px 100px;
+    text-align: center;
+    width: 29%;
+    position: absolute;
+  }
+  
+  .projectnumber .gaps {
+    padding: 20px 0;
+    font-size: 0.8rem;
+  }
+
+  .aboutUs p {
+    padding: 6px 0px;
+    font-size: 0.9rem;
+    color: rgb(131, 129, 129);
+  }
+
+  #ENJOYMENT {
+    margin-top: 50px;
+  }
+  
+  #ENJOYMENT .img1 {
+    padding: 20px;
+    margin-left: 10px;
+    max-width: 32%;
+    max-height: 38%;
+  }
+  
+  #ENJOYMENT .img2 {
+    padding: 12px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+    max-width: 32%;
+    max-height: 32%;
+  }
+  
+  #ENJOYMENT .img3 {
+    padding: 20px;
+    margin-left: 10px;
+    max-width: 32%;
+    max-height: 32%;
+  }
+
+  @media (max-width: 1100px){
+    .bannercolor nav ul li a {
+      text-decoration: none; 
+      list-style: none;
+      color: rgb(9, 1, 1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 7px;
+      padding-left:93px;
+    }
+
+    .Mainbgwidth .Maincontainerimg {
+      position: absolute;
+      left: -2%;
+      margin-top:6%;
+      overflow: hidden;
+      opacity: 1;
+      width: 50%;
+      height:130%;
+      margin-left: 8%;
+    }
+
+  }
+  @media (max-width: 1050px){
+    .Mainbgwidth .Maincontainerimg {
+      position: absolute;
+      left: -1%;
+      margin-top:5%;
+      overflow: hidden;
+      opacity: 1;
+    }
+  }
+}
+}
+}
+}
+}
+
+}
+
